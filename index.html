@@ -325,16 +325,16 @@
 
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="תפריט">
-    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
   <button class="phone-header-btn" data-phone="[business_phone]" aria-label="התקשר">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -808,14 +808,14 @@
   </div>
   
   <div class="index-hero-section__divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewbox="0 0 1200 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <linearGradient id="index-hero-neon-line" x1="0%" y1="0%" x2="100%" y2="0%">
+        <lineargradient id="index-hero-neon-line" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" style="stop-color:var(--primary);stop-"></stop>
           <stop offset="30%" style="stop-color:var(--primary);stop-opacity:1"></stop>
           <stop offset="70%" style="stop-color:var(--primary);stop-opacity:1"></stop>
           <stop offset="100%" style="stop-color:var(--primary);stop-"></stop>
-        </linearGradient>
+        </lineargradient>
       </defs>
       <path d="M0,120 L0,0 L1200,80 L1200,120 Z" fill="var(--bg-light)"></path>
       <line x1="0" y1="0" x2="1200" y2="80" stroke="url(#index-hero-neon-line)" stroke-width="2"></line>
@@ -830,111 +830,71 @@
       <p>גישה שלב-אחר-שלב המאפשרת למתחילים ללא ניסיון קודם ליצור פורטרטים מדויקים ומרשימים תוך שליטה מלאה בתהליך</p>
     </div>
     
-    <div class="index-features-grid">
-      <div class="index-features-card">
+    <div class="index-features-grid zappy-vertical-grid" style="; grid-template-columns: repeat(4, minmax(0, 1fr));" data-zappy-explicit-columns="true"><div class="index-features-card">
         <div class="index-features-card-content">
           <div class="index-features-icon-wrapper">
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <rect x="3" y="3" width="18" height="18" rx="2"></rect>
-              <line x1="3" y1="9" x2="21" y2="9"></line>
-              <line x1="9" y1="21" x2="9" y2="9"></line>
-            </svg>
-          </div>
-          <div class="index-features-text">
-            <h3>מיפוי פרופורציות ונקודות ציון</h3>
-            <p>למידת טכניקת הרשת והמדידה היחסית שמאפשרת לך למקם כל פרט בפנים במיקום המדויק – עיניים, אף, פה – תוך הבנת היחסים ביניהם</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="index-features-card">
-        <div class="index-features-card-content">
-          <div class="index-features-icon-wrapper">
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <svg data-element-type="icon" data-icon-type="svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="12" r="3"></circle>
               <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1"></path>
               <path d="M18.36 5.64l-4.24 4.24m-4.24 4.24L5.64 18.36m12.72 0l-4.24-4.24m-4.24-4.24L5.64 5.64"></path>
             </svg>
           </div>
           <div class="index-features-text">
-            <h3>שליטה בערכי אור וצל</h3>
-            <p>הבנת מקורות האור והצללה תלת-מימדית – כיצד ליצור עומק, נפח ומרקם על הבד באמצעות שכבות של טונים כהים ובהירים</p>
+            <h3 class="zappy-editable">שליטה בערכי אור וצל</h3>
+            <p class="zappy-editable">הבנת מקורות האור והצללה תלת-מימדית – כיצד ליצור עומק, נפח ומרקם על הבד באמצעות שכבות של טונים כהים ובהירים</p>
           </div>
         </div>
-      </div>
-
-      <div class="index-features-card">
+      </div><div class="index-features-card">
         <div class="index-features-card-content">
           <div class="index-features-icon-wrapper">
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
-              <path d="M12 16v-4"></path>
-              <circle cx="12" cy="18" r="0.5" fill="currentColor"></circle>
-            </svg>
-          </div>
-          <div class="index-features-text">
-            <h3>טכניקות שכבות במכחול</h3>
-            <p>עבודה עם מכחולים שונים ובניית שכבות צבע – מהרקע ועד לפרטים העדינים ביותר – תוך שמירה על טקסטורה חיה ואורגנית</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="index-features-card">
-        <div class="index-features-card-content">
-          <div class="index-features-icon-wrapper">
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <svg data-element-type="icon" data-icon-type="svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="12" cy="12" r="10"></circle>
               <circle cx="12" cy="12" r="6"></circle>
               <circle cx="12" cy="12" r="2"></circle>
             </svg>
           </div>
           <div class="index-features-text">
-            <h3>ערבוב צבעים לגווני עור</h3>
-            <p>מתכון מעשי ליצירת טונים חמים, קרים ונייטרליים של עור אנושי – הבנת הפיגמנטים והיחסים ביניהם לקבלת גוון טבעי ומדויק</p>
+            <h3 class="zappy-editable">ערבוב צבעים לגווני עור</h3>
+            <p class="zappy-editable">מתכון מעשי ליצירת טונים חמים, קרים ונייטרליים של עור אנושי – הבנת הפיגמנטים והיחסים ביניהם לקבלת גוון טבעי ומדויק</p>
           </div>
         </div>
-      </div>
-
-      <div class="index-features-card">
+      </div><div class="index-features-card">
         <div class="index-features-card-content">
           <div class="index-features-icon-wrapper">
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <svg data-element-type="icon" data-icon-type="svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <path d="M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34"></path>
               <polygon points="18 2 22 6 12 16 8 16 8 12 18 2"></polygon>
             </svg>
           </div>
           <div class="index-features-text">
-            <h3>תיקון טעויות ללא פאניקה</h3>
-            <p>אסטרטגיות מעשיות להתמודדות עם שגיאות נפוצות – מחיקה, כיסוי, תיקון פרופורציות – והפיכת "תאונות" להזדמנויות יצירתיות</p>
+            <h3 class="zappy-editable">תיקון טעויות ללא פאניקה</h3>
+            <p class="zappy-editable">אסטרטגיות מעשיות להתמודדות עם שגיאות נפוצות – מחיקה, כיסוי, תיקון פרופורציות – והפיכת "תאונות" להזדמנויות יצירתיות</p>
           </div>
         </div>
-      </div>
-
-      <div class="index-features-card">
+      </div><div class="index-features-card">
         <div class="index-features-card-content">
           <div class="index-features-icon-wrapper">
-            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <svg data-element-type="icon" data-icon-type="svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
               <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
               <circle cx="9" cy="7" r="4"></circle>
               <path d="M23 21v-2a4 4 0 0 0-3-3.87m-4-12a4 4 0 0 1 0 7.75"></path>
             </svg>
           </div>
           <div class="index-features-text">
-            <h3>משוב אישי מותאם</h3>
-            <p>קבלת הערות ממוקדות על העבודה שלך – זיהוי נקודות חוזק, תחומים לשיפור והמלצות ספציפיות להתקדמות מהירה יותר</p>
+            <h3 class="zappy-editable">משוב אישי מותאם</h3>
+            <p class="zappy-editable">קבלת הערות ממוקדות על העבודה שלך – זיהוי נקודות חוזק, תחומים לשיפור והמלצות ספציפיות להתקדמות מהירה יותר</p>
           </div>
         </div>
-      </div>
-    </div>
+      </div></div>
   </div>
   
   <div class="index-features-divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewbox="0 0 1200 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <linearGradient id="index-features-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <lineargradient id="index-features-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:var(--bg-light);stop-opacity:1"></stop>
           <stop offset="100%" style="stop-color:var(--bg-dark);stop-opacity:1"></stop>
-        </linearGradient>
+        </lineargradient>
       </defs>
       <path d="M0,120 L0,0 L1200,0 L1200,120 Z" fill="#14161B"></path>
     </svg>
@@ -988,13 +948,13 @@
     </div>
   </div>
   <div class="index-steps-divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <linearGradient id="index-steps-neon-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <lineargradient id="index-steps-neon-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" style="stop-color:rgba(0,212,255,0.3);stop-opacity:1"></stop>
           <stop offset="50%" style="stop-color:rgba(0,212,255,0.6);stop-opacity:1"></stop>
           <stop offset="100%" style="stop-color:rgba(0,212,255,0.3);stop-opacity:1"></stop>
-        </linearGradient>
+        </lineargradient>
       </defs>
       <path d="M0,60 L0,22 Q50,18 100,24 Q150,30 200,20 Q250,10 300,26 Q350,35 400,18 Q450,8 500,28 Q550,38 600,16 Q650,6 700,30 Q750,42 800,20 Q850,12 900,32 Q950,40 1000,18 Q1050,10 1100,28 Q1150,35 1200,22 L1200,60 Z" fill="var(--bg-light)"></path>
       <path d="M0,22 Q50,18 100,24 Q150,30 200,20 Q250,10 300,26 Q350,35 400,18 Q450,8 500,28 Q550,38 600,16 Q650,6 700,30 Q750,42 800,20 Q850,12 900,32 Q950,40 1000,18 Q1050,10 1100,28 Q1150,35 1200,22" stroke="url(#index-steps-neon-gradient)" stroke-width="2" fill="var(--bg-light)"></path>
@@ -1059,13 +1019,13 @@
 
   <!-- Bottom Divider: Neon Rail -->
   <div class="index-pricing-section__divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 4" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewbox="0 0 1200 4" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <linearGradient id="neonRailGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <lineargradient id="neonRailGradient" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" style="stop-color:var(--primary);stop-opacity:1"></stop>
           <stop offset="70%" style="stop-color:var(--primary);stop-opacity:1"></stop>
           <stop offset="100%" style="stop-color:var(--primary);stop-"></stop>
-        </linearGradient>
+        </lineargradient>
       </defs>
       <rect x="0" y="0" width="1200" height="4" fill="url(#neonRailGradient)"></rect>
     </svg>
@@ -1113,18 +1073,18 @@
   </div>
 
   <div class="index-testimonials-divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewbox="0 0 1200 90" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <filter id="torn-shadow" x="-50%" y="-50%" width="200%" height="200%">
-          <feGaussianBlur in="SourceAlpha" stdDeviation="3"></feGaussianBlur>
-          <feOffset dx="0" dy="2" result="offsetblur"></feOffset>
-          <feComponentTransfer>
-            <feFuncA type="linear" slope="0.3"></feFuncA>
-          </feComponentTransfer>
-          <feMerge>
-            <feMergeNode></feMergeNode>
-            <feMergeNode in="SourceGraphic"></feMergeNode>
-          </feMerge>
+          <fegaussianblur in="SourceAlpha" stddeviation="3"></fegaussianblur>
+          <feoffset dx="0" dy="2" result="offsetblur"></feoffset>
+          <fecomponenttransfer>
+            <fefunca type="linear" slope="0.3"></fefunca>
+          </fecomponenttransfer>
+          <femerge>
+            <femergenode></femergenode>
+            <femergenode in="SourceGraphic"></femergenode>
+          </femerge>
         </filter>
       </defs>
       <path d="M0,90 L0,45 Q15,42 30,46 Q45,50 60,44 Q75,38 90,43 Q105,48 120,41 Q135,34 150,42 Q165,50 180,45 Q195,40 210,47 Q225,54 240,46 Q255,38 270,44 Q285,50 300,42 Q315,34 330,45 Q345,56 360,48 Q375,40 390,46 Q405,52 420,44 Q435,36 450,43 Q465,50 480,45 Q495,40 510,47 Q525,54 540,46 Q555,38 570,44 Q585,50 600,43 Q615,36 630,45 Q645,54 660,47 Q675,40 690,46 Q705,52 720,44 Q735,36 750,43 Q765,50 780,46 Q795,42 810,48 Q825,54 840,45 Q855,36 870,44 Q885,52 900,46 Q915,40 930,47 Q945,54 960,45 Q975,36 990,43 Q1005,50 1020,46 Q1035,42 1050,48 Q1065,54 1080,45 Q1095,36 1110,44 Q1125,52 1140,46 Q1155,40 1170,47 Q1185,54 1200,46 L1200,90 Z" fill="var(--bg-light)" filter="url(#torn-shadow)"></path>
@@ -1169,22 +1129,22 @@
   </div>
 
   <div class="index-stats-section__divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <linearGradient id="stats-divider-line" x1="100%" y1="0%" x2="0%" y2="0%">
+        <lineargradient id="stats-divider-line" x1="100%" y1="0%" x2="0%" y2="0%">
           <stop offset="0%" style="stop-color:var(--accent);stop-"></stop>
           <stop offset="30%" style="stop-color:var(--accent);stop-opacity:0.6"></stop>
           <stop offset="100%" style="stop-color:var(--accent);stop-"></stop>
-        </linearGradient>
+        </lineargradient>
       </defs>
       <rect x="0" y="0" width="1200" height="60" fill="var(--bg-light)"></rect>
       <line x1="0" y1="30" x2="1200" y2="30" stroke="url(#stats-divider-line)" stroke-width="1.5"></line>
       <rect x="0" y="30" width="1200" height="30" fill="url(#stats-vignette)" opacity="0.4"></rect>
       <defs>
-        <linearGradient id="stats-vignette" x1="0%" y1="0%" x2="0%" y2="100%">
+        <lineargradient id="stats-vignette" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:var(--bg-light);stop-opacity:1"></stop>
           <stop offset="100%" style="stop-color:var(--bg-dark);stop-opacity:0.2"></stop>
-        </linearGradient>
+        </lineargradient>
       </defs>
     </svg>
   </div>
@@ -1221,7 +1181,7 @@
           
           <button type="submit" class="index-contact-submit-btn">
             שלחו וקבלו הכוונה
-            <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-inline-start: 8px;">
+            <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-inline-start: 8px;">
               <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </button>
@@ -1245,7 +1205,7 @@
         </div>
         
         <div class="index-contact-promise">
-          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-inline-end: 8px; flex-shrink: 0;">
+          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-inline-end: 8px; flex-shrink: 0;">
             <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"></path>
             <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
           </svg>
